@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="391.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashCustomerForm">
+   <children>
+      <JFXButton layoutX="175.0" layoutY="87.0" onAction="#addCustomerForm" prefHeight="50.0" prefWidth="253.0" style="-fx-background-color: #134B70;" text="ADD Customer" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+      </JFXButton>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" stroke="BLACK" strokeType="INSIDE" width="603.0" />
+      <Label layoutX="155.0" layoutY="-3.0" text="Dashbord">
+         <font>
+            <Font name="Castellar" size="55.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="175.0" layoutY="143.0" onAction="#updateCustomerForm" prefHeight="50.0" prefWidth="253.0" style="-fx-background-color: #134B70;" text="Update customer" textFill="#fffefe">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="175.0" layoutY="199.0" onAction="#deleteCustomerForm" prefHeight="50.0" prefWidth="253.0" style="-fx-background-color: #134B70;" text="Delete customer" textFill="#fffefe">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="175.0" layoutY="255.0" onAction="#searchCustomerForm" prefHeight="50.0" prefWidth="253.0" style="-fx-background-color: #134B70;" text="Search customer" textFill="#fffefe">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="453.0" layoutY="327.0" onAction="#logout" prefHeight="50.0" prefWidth="124.0" style="-fx-background-color: cyan;" text="Logout">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="175.0" layoutY="312.0" onAction="#viewCustomerForm" prefHeight="50.0" prefWidth="253.0" style="-fx-background-color: #134B70;" text="VIEW customer" textFill="#fffefe">
+         <font>
+            <Font name="Castellar" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

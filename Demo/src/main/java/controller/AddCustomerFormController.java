@@ -26,24 +26,25 @@ public class AddCustomerFormController {
 
     @FXML
     void btnAddCustomerOnAction(ActionEvent event) {
+        if(txtID.getText()==null || txtName.getText()==null || txtAddress.getText()==null || txtSalary.getText()==null){
+
+        }
         Customer customer = new Customer(txtID.getText(), txtName.getText(), txtAddress.getText(), Double.parseDouble(txtSalary.getText()));
-
-//        System.out.println(customer);
-
         customerList.add(customer);
-
-//        System.out.println(customerList);
-
+        clearText();
     }
 
     @FXML
     void btnClearCustomerOnAction(ActionEvent event) {
-        txtID.setText("");
-        txtName.setText("");
-        txtAddress.setText("");
-        txtSalary.setText("");
+        clearText();
     }
 
+    public void clearText(){
+        txtID.clear();
+        txtName.clear();
+        txtAddress.clear();
+        txtSalary.clear();
+    }
 
     @FXML
     void btnDeleteCustomerOnAction(ActionEvent event) {

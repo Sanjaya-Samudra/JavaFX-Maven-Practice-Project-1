@@ -18,7 +18,7 @@
       </Label>
       <JFXTextField fx:id="txtID" layoutX="124.0" layoutY="93.0" prefHeight="25.0" prefWidth="299.0" promptText="ID" />
       <JFXTextField fx:id="txtName" layoutX="124.0" layoutY="138.0" prefHeight="25.0" prefWidth="299.0" promptText="Name" />
-      <JFXButton layoutX="72.0" layoutY="281.0" onAction="#btnSearchCustomerOnAction" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="SEARCH" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="72.0" layoutY="281.0" onAction="#btnSearchCustomerOnAction" ripplerFill="#128a14" style="-fx-background-color: cyan;" text="SEARCH" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
@@ -31,7 +31,7 @@
       </JFXButton>
       <JFXTextField fx:id="txtAddress" layoutX="124.0" layoutY="184.0" prefHeight="25.0" prefWidth="299.0" promptText="Address" />
       <JFXTextField fx:id="txtSalary" layoutX="124.0" layoutY="232.0" prefHeight="25.0" prefWidth="299.0" promptText="Salary" />
-      <JFXButton layoutX="163.0" layoutY="281.0" onAction="#btnDeleteCustomerOnAction" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="DELETE" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="163.0" layoutY="281.0" onAction="#btnDeleteCustomerOnAction" ripplerFill="#ff2600" style="-fx-background-color: red;" text="DELETE" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
@@ -42,7 +42,7 @@
             <Glow level="1.0" />
          </effect>
       </JFXButton>
-      <JFXButton layoutX="247.0" layoutY="281.0" onAction="#btnUpdateCustomerOnAction" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="UPDATE" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="247.0" layoutY="281.0" onAction="#btnUpdateCustomerOnAction" ripplerFill="#128a14" style="-fx-background-color: blue;" text="UPDATE" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
@@ -53,7 +53,7 @@
             <Glow level="1.0" />
          </effect>
       </JFXButton>
-      <JFXButton layoutX="336.0" layoutY="281.0" onAction="#btnAddCustomerOnAction" prefHeight="31.0" prefWidth="75.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="ADD" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="336.0" layoutY="281.0" onAction="#btnAddCustomerOnAction" prefHeight="31.0" prefWidth="75.0" ripplerFill="#128a14" style="-fx-background-color: green;" text="ADD" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
@@ -64,7 +64,7 @@
             <Glow level="1.0" />
          </effect>
       </JFXButton>
-      <JFXButton layoutX="423.0" layoutY="281.0" onAction="#btnClearCustomerOnAction" prefHeight="31.0" prefWidth="75.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="CLEAR" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="423.0" layoutY="281.0" onAction="#btnClearCustomerOnAction" prefHeight="31.0" prefWidth="75.0" ripplerFill="#128a14" style="-fx-background-color: yellow;" text="CLEAR" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
