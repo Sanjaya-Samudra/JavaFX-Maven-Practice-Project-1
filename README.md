@@ -25,5 +25,5 @@ To get started with this project, follow these steps:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Sanjaya-Samudra/javafx-maven-project.git
-cd javafx-maven-project
+git clone https://github.com/Sanjaya-Samudra/JavaFX-With-Maven.git
+
