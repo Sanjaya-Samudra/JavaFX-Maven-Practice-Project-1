@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="70.0" prefWidth="363.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PromptCustomerMessage">
+   <children>
+      <Label layoutX="14.0" layoutY="20.0" prefHeight="30.0" prefWidth="244.0" style="-fx-background-color: yellow;" text="Inputs field/fields empty">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="60.0" fitWidth="65.0" layoutX="284.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
