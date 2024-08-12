@@ -19,6 +19,8 @@ To get started with this project, follow these steps:
 
 ### Prerequisites
 
+- **JDK 1.8**: If you are working with Java 8 (JDK 1.8), JavaFX is included as part of the JDK package.
+    #### But In This Case I Work With JDK 11
 - **JDK 11 or higher**: Ensure you have JDK 11 or higher installed on your system.
 - **Maven**: Install Maven to manage dependencies and build the project.
 
