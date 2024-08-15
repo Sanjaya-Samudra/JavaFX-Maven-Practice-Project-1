@@ -13,7 +13,7 @@
             <Font name="Castellar" size="20.0" />
          </font>
       </JFXButton>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" stroke="BLACK" strokeType="INSIDE" width="603.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="66.0" stroke="#808080" strokeType="INSIDE" width="603.0" />
       <Label layoutX="155.0" layoutY="-3.0" text="Dashbord">
          <font>
             <Font name="Castellar" size="55.0" />

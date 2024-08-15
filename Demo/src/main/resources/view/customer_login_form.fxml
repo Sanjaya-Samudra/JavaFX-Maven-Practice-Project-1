@@ -8,7 +8,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="353.0" prefWidth="509.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerLoginForm">
    <children>
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="6.0" prefHeight="44.0" prefWidth="500.0" style="-fx-background-color: lightgreen;" text="WELCOME" textAlignment="CENTER" wrapText="true">
@@ -16,9 +15,9 @@
             <Font name="Bodoni MT Bold" size="36.0" />
          </font>
       </Label>
-      <JFXTextField layoutX="117.0" layoutY="93.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your email" />
+      <JFXTextField layoutX="117.0" layoutY="93.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your username" />
       <JFXTextField layoutX="117.0" layoutY="138.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your password" />
-      <JFXButton layoutX="224.0" layoutY="188.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="Sign in" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="218.0" layoutY="187.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="Login in" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
@@ -29,12 +28,12 @@
             <Glow level="1.0" />
          </effect>
       </JFXButton>
-      <Label layoutX="101.0" layoutY="241.0" prefHeight="17.0" prefWidth="86.0" text="New user ?" underline="true">
+      <Label layoutX="86.0" layoutY="241.0" prefHeight="17.0" prefWidth="86.0" text="New user ?" underline="true">
          <font>
             <Font name="System Bold" size="15.0" />
          </font>
       </Label>
-      <JFXButton layoutX="187.0" layoutY="236.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="Create an account" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXButton layoutX="172.0" layoutY="236.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="Contact Administrator" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>

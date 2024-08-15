@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import com.jfoenix.controls.JFXButton?>
+<?import java.lang.String?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
@@ -8,22 +9,29 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewCustomerFormController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="column-header" stylesheets="@../css/table.css" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ViewCustomerFormController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" stroke="BLACK" strokeType="INSIDE" width="605.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="84.0" stroke="BLACK" strokeType="INSIDE" width="605.0">
+         <styleClass>
+            <String fx:value="column-header" />
+            <String fx:value="textLabel" />
+         </styleClass></Rectangle>
       <Label layoutX="101.0" layoutY="13.0" text="View Customer Form" textFill="#eeeeee">
          <font>
             <Font name="System Bold" size="41.0" />
          </font>
       </Label>
-      <TableView fx:id="tblCustomers" layoutX="42.0" layoutY="116.0" prefHeight="200.0" prefWidth="523.0">
+      <TableView fx:id="tblCustomers" layoutX="42.0" layoutY="116.0" prefHeight="200.0" prefWidth="523.0" stylesheets="@../css/table.css">
         <columns>
           <TableColumn fx:id="colID" prefWidth="75.0" text="ID" />
           <TableColumn fx:id="colName" prefWidth="143.0" text="Name" />
             <TableColumn fx:id="colAddress" prefWidth="155.0" text="Address" />
             <TableColumn fx:id="colSalary" prefWidth="149.0" text="Salary" />
         </columns>
+         <styleClass>
+            <String fx:value="table-view" />
+            <String fx:value="column-header" />
+         </styleClass>
       </TableView>
       <JFXButton layoutX="265.0" layoutY="336.0" onAction="#btnReloadOnAction" prefHeight="41.0" prefWidth="77.0" style="-fx-background-color: grey;" text="Reload" textFill="WHITE">
          <font>
