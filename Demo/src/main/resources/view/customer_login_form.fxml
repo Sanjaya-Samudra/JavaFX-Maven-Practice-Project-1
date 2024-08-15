@@ -15,9 +15,9 @@
             <Font name="Bodoni MT Bold" size="36.0" />
          </font>
       </Label>
-      <JFXTextField layoutX="117.0" layoutY="93.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your username" />
-      <JFXTextField layoutX="117.0" layoutY="138.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your password" />
-      <JFXButton layoutX="218.0" layoutY="187.0" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="Login in" textAlignment="CENTER" textOverrun="CLIP">
+      <JFXTextField fx:id="txtUsername" layoutX="117.0" layoutY="93.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your username" />
+      <JFXTextField fx:id="txtPassword" layoutX="117.0" layoutY="138.0" prefHeight="25.0" prefWidth="299.0" promptText="Enter your password" />
+      <JFXButton layoutX="218.0" layoutY="187.0" onAction="#btnLoginOnAction" ripplerFill="#128a14" style="-fx-background-color: lightblue;" text="Login in" textAlignment="CENTER" textOverrun="CLIP">
          <font>
             <Font size="15.0" />
          </font>
