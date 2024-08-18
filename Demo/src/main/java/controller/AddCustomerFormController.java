@@ -62,19 +62,4 @@ public class AddCustomerFormController {
         txtSalary.clear();
     }
 
-    @FXML
-    void btnDeleteCustomerOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnSearchCustomerOnAction(ActionEvent event) {
-
-    }
-
-    @FXML
-    void btnUpdateCustomerOnAction(ActionEvent event) {
-
-    }
-
 }
