@@ -29,7 +29,7 @@ public class DashCustomerForm {
 
     @FXML
     void logout(ActionEvent event) {
-
+        System.exit(0);
     }
 
     @FXML

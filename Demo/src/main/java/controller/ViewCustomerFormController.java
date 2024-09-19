@@ -53,11 +53,6 @@ public class ViewCustomerFormController implements Initializable {
         connection.forEach(obj-> {
             customerObservableList.add(obj);
         });
-
-        customerObservableList.add(new Customer("C001", "Kamal", "Colombo", 10000.00));
-        customerObservableList.add(new Customer("C001", "Kamal", "Colombo", 10000.00));
-        customerObservableList.add(new Customer("C001", "Kamal", "Colombo", 10000.00));
-        customerObservableList.add(new Customer("C001", "Kamal", "Colombo", 10000.00));
         tblCustomers.setItems(customerObservableList);
     }
 }
